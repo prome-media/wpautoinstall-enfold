@@ -23,7 +23,7 @@ The scripts automates the installation and cleanup of the following components:
     - Create site
     - Right click site's name
     - Select "Open Site Shell"
-    - Enter the following command in the terminal window: wget https://raw.githubusercontent.com/prome-media/wpautoinstall-enfold/master/wpautoinstall-enfold.sh && chmod +x wpautoinstall-enfold.sh && ./wpautoinstall-enfold.sh
+    - Enter the following command in the terminal window: `wget https://raw.githubusercontent.com/prome-media/wpautoinstall-enfold/master/wpautoinstall-enfold.sh && chmod +x wpautoinstall-enfold.sh && ./wpautoinstall-enfold.sh`
 
 - SiteGround Hosts / Remote Server environments:
     - TBA
