@@ -1,1 +1,1 @@
-# wpautoinstall
+# wpautoinstall-enfold
