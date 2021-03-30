@@ -25,5 +25,8 @@ The scripts automates the installation and cleanup of the following components:
     - Select "Open Site Shell"
     - Enter the following command in the terminal window: `wget https://raw.githubusercontent.com/prome-media/wpautoinstall-enfold/master/wpautoinstall-enfold.sh && chmod +x wpautoinstall-enfold.sh && ./wpautoinstall-enfold.sh`
 
-- SiteGround Hosts / Remote Server environments:
-    - TBA
+- SiteGround Hosts (Remote environment):
+    - Generate SSH Keys from SiteGround SSH Manager, under the Dev Section
+    - Import the Private key to the local SSH agent. More info here: https://www.siteground.com/kb/ssh_and_ssh_keys/
+    - Login via SSH
+    - Enter the following command in the terminal window: `cd ~/www && cd * && cd public_html && wget https://raw.githubusercontent.com/prome-media/wpautoinstall-enfold/master/wpautoinstall-enfold.sh && chmod +x wpautoinstall-enfold.sh && ./wpautoinstall-enfold.sh`
