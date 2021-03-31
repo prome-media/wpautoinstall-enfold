@@ -7,12 +7,13 @@ The scripts automates the installation and cleanup of the following components:
 - Installs and activates the Enfold child theme
 - Deletes twentytwenty theme
 - Deletes twentynineteen theme
+- Deletes twentytwentyone theme
 - Deletes Akismet plugin
 - Deletes Hello Dolly plugin
 - Installs and activates the UpdraftPlus plugin
 - Installs and activates the WordFence plugin
-- Installs and activates the Classic Editor plugin
 - Installs and activates the Duplicate Post plugin
+- Installs and activates the SG optimizer plugin
 
 ## Requirements:
 - wget package

@@ -14,10 +14,16 @@ read -r -p "Do you want to start the basic installation process? [y/N] " respons
         wp plugin install updraftplus --activate
         wp plugin install wordfence --activate
         wp plugin install duplicate-post --activate
+    fi
+
+# SG Optimizer Installation Auto Configuration of Settings
+# TODO: Should use "wp plugin is-installed" check in the conditional statement (TBA)
+read -r -p "Is this an SG hosted website? If yes, this will install SG Optimizer if it is not already installed. [y/N] " response
+
+    if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
         wp plugin install sg-cachepress --activate
     fi
 
-# SG Optimizer Auto Configuration of Settings
 read -r -p "Do you want to auto configure the SG Optimizer settings for this website? [y/N] " response
 
     if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
