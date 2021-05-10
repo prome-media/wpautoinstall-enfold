@@ -13,8 +13,17 @@ The scripts automates the installation and cleanup of the following components:
 - Installs and activates the UpdraftPlus plugin
 - Installs and activates the WordFence plugin
 - Installs and activates the Duplicate Post plugin
-- Installs and activates the SG optimizer plugin
-
+- Installs (if not already installed) and activates the SG optimizer plugin. 
+- Automatically applies the following configuration settings for the SG Optimizer plugin:
+    - Enables Memcached
+    - Enables HTML Minification
+    - Enables JS Minification
+    - Enables CSS Minification
+    - Enables Emojis stripping
+    - Enables HTML Minification
+    - Enables Image Optimizations
+    - Enables LazyLoad
+    - Enables Database Optimization
 ## Requirements:
 - wget package
 - Terminal access - SSH login
