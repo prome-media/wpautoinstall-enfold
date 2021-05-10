@@ -20,7 +20,6 @@ The scripts automates the installation and cleanup of the following components:
     - Enables JS Minification
     - Enables CSS Minification
     - Enables Emojis stripping
-    - Enables HTML Minification
     - Enables Image Optimizations
     - Enables LazyLoad
     - Enables Database Optimization
