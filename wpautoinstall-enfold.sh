@@ -55,7 +55,7 @@ read -r -p "Do you want to update the permalink structure? [y/N] " response
 
 # Import Basic Enfold Child Settings
 # TODO: Use wp db prefix to get Database prefix and assign it to a variable
-# TODO: Use wp db query to import settings 
+# TODO: Use wp db query to insert values 
 
 # Script Cleanup
 read -r -p " All done! Do you want to delete the installation script? [y/N] " response
